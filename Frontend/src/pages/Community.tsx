@@ -142,8 +142,15 @@ const Community = () => {
                 variant="outline"
                 className="border-primary text-primary hover:bg-primary hover:text-white"
               >
-                <Users className="w-5 h-5 mr-2" />
-                WhatsApp Group
+                <a
+                  href="https://chat.whatsapp.com/HTwSFGYUNIb6m75IAzCxfk?mode=ac_t"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center"
+                >
+                  <Whatsapp className="w-5 h-5 mr-2" />
+                  WhatsApp Group
+                </a>
               </Button>
             </div>
           </div>
@@ -154,11 +161,11 @@ const Community = () => {
           <div className="container mx-auto">
             <div className="grid md:grid-cols-4 gap-8 text-center">
               <div className="bg-card border border-border rounded-lg p-6">
-                <h3 className="text-3xl font-bold text-primary mb-2">...</h3>
+                <h3 className="text-3xl font-bold text-primary mb-2">600+</h3>
                 <p className="text-muted-foreground">Total Members</p>
               </div>
               <div className="bg-card border border-border rounded-lg p-6">
-                <h3 className="text-3xl font-bold text-primary mb-2">...</h3>
+                <h3 className="text-3xl font-bold text-primary mb-2">10+</h3>
                 <p className="text-muted-foreground">Active Contributors</p>
               </div>
               <div className="bg-card border border-border rounded-lg p-6">

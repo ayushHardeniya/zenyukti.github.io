@@ -53,7 +53,7 @@
 ## About The Project
 
 <div align="center">
-  <img src="/src/media/zenyukti-landingpage.png" alt="Zenyukti Website Screenshot" width="800">
+  <img src="public\assets\landing-page.png" alt="Zenyukti Website Screenshot" width="800">
 </div>
 
 <br>

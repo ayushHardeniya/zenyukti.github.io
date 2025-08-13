@@ -356,7 +356,7 @@ const TermsOfService = () => {
                       size="lg" 
                       variant="secondary" 
                       className="bg-white text-primary hover:bg-white/90"
-                      onClick={() => window.open('mailto:zenyukti@ayushhardeniya.site', '_blank')}
+                      onClick={() => window.open('mailto:teamzenyukti@gmail.com', '_blank')}
                     >
                       Contact Us
                     </Button>

@@ -7,31 +7,64 @@
     "email": "connect@ayushhardeniya.site",
     "github": "https://github.com/ayushHardeniya",
     "linkedin": "https://linkedin.com/in/ayushHardeniya",
-    "instagram": "https://instagram.com/ayush.hardeniya",
+    "twitter": "https://x.com/ayushHardeniya",
     "discord": "https://discordapp.com/users/1372593502235525322",
-    "bio": "Together at ZenYukti, we’re turning bold visions into reality.",
-    "avatar": "https://ayushhardeniya.site/assets/portfolio/prof-image.png",
-    "isFounder": true
+    "bio": "Together at ZenYukti, we're turning bold visions into reality.",
+    "avatar": "https://ayushhardeniya.site/assets/about/profile5.jpg",
+    "isFounder": true,
+    "department": "ZenBoard"
+  },
+  {
+    "id": "anvita-shukla",
+    "name": "Anvita Shukla",
+    "role": "Co-Founder & Design Lead",
+    "email": "anvitashukla2006@gmail.com",
+    "github": "https://github.com/ANVITA1126",
+    "linkedin": "https://www.linkedin.com/in/anvita-shukla-96a396308",
+    "discord": "https://discordapp.com/users/1374585138029006909",
+    "bio": "Driven to innovate and inspire, fostering creativity at every step.",
+    "avatar": "/assets/anvita.jpeg",
+    "isFounder": false,
+    "department": "ZenBoard"
+  },
+  {
+    "id": "avinash-shukla",
+    "name": "Avinash Kumar Shukla",
+    "role": "Co-Founder & Operations Co-Lead",
+    "email": "avinashshukla.dev@gmail.com",
+    "github": "https://github.com/avinash-394",
+    "linkedin": "https://www.linkedin.com/in/avinashshukla394/",
+    "instagram": "https://instagram.com/avinash.shukla04",
+    "discord": "https://discordapp.com/users/509685531291025419",
+    "bio": "Passionate about turning ideas into impact, building a thriving community.",
+    "avatar": "https://media.licdn.com/dms/image/v2/D5603AQG1nzHhYYAsVg/profile-displayphoto-shrink_200_200/B56ZUn3SSRHsAY-/0/1740130560580?e=1756339200&v=beta&t=wJEYH-H53UdZsDEWJEP0n94FXt02_BGdy53UDvLreDw",
+    "isFounder": false,
+    "department": "ZenBoard"
   },
   {
     "id": "kaushal",
     "name": "Kaushal Sharma",
-    "role": "Tech & Dev Lead",
+    "role": "Technical Co-Lead",
     "email": "ksharma17052005@gmail.com",
+    "github": "https://github.com/Kaushal171205",
+    "avatar": "./assets/kaushal.jpg",
     "discord": "https://discordapp.com/users/1350110343271153724",
-    "isFounder": false
+    "linkedin": "https://www.linkedin.com/in/kaushal-sharma-4920ab2a2?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BcUnOBArzRu%2BcoZuyy0xGGA%3D%3D",
+    "isFounder": false,
+    "department": "ZenCrew"
   },
   {
     "id": "ayush-raj",
     "name": "Ayush Raj",
-    "role": "Tech & Dev Co-Lead",
+    "role": "Technical Co-Lead",
     "email": "ayushr94150@gmail.com",
     "github": "https://github.com/ayushraaj-01",
     "linkedin": "https://www.linkedin.com/in/ayush-raj-3849a1335",
     "instagram": "https://www.instagram.com/ayush__raj2004/",
     "discord": "https://discordapp.com/users/1277273474104295504",
     "avatar": "https://media.licdn.com/dms/image/v2/D5603AQE4BbHYOjtD6w/profile-displayphoto-shrink_200_200/B56ZcSx8bCG0AY-/0/1748366773137?e=1756339200&v=beta&t=recR-bW2CkaLXCGR2iz8VGDSxgtX-WNXo4lYvskaXsQ",
-    "isFounder": false
+    "isFounder": false,
+    "department": "ZenCrew"
   },
   {
     "id": "avishi-sharma",
@@ -43,20 +76,8 @@
     "instagram": "https://instagram.com/avishisharma06",
     "discord": "https://discordapp.com/users/1288525929907224616",
     "avatar": "https://media.licdn.com/dms/image/v2/D5603AQFKEvZS3Q1-DA/profile-displayphoto-scale_200_200/B56ZfBW7gqH8Ag-/0/1751295705968?e=1756339200&v=beta&t=LluMeTEacpzEHxi6Xj-VYEGYwZTOQ1ob3uS0LyDnY1w",
-    "isFounder": false
-  },
-  {
-    "id": "anvita-shukla",
-    "name": "Anvita Shukla",
-    "role": "Design & Creative Lead",
-    "email": "anvitashukla2006@gmail.com",
-    "github": "https://github.com/ANVITA1126",
-    "linkedin": "https://www.linkedin.com/in/anvita-shukla-96a396308",
-    "discord": "https://discordapp.com/users/1374585138029006909",
-    "bio" : "Driven to innovate and inspire, fostering creativity at every step.",
-    "avatar": "/assets/anvita.jpeg",
-    
-    "isFounder": false
+    "isFounder": false,
+    "department": "ZenCrew"
   },
   {
     "id": "ayush-shukla",
@@ -68,54 +89,83 @@
     "instagram": "https://instagram.com/ayushs_4141",
     "discord": "https://discordapp.com/users/1377673941438562456",
     "avatar": "https://media.licdn.com/dms/image/v2/D5603AQFk2C1HXbtTrQ/profile-displayphoto-scale_200_200/B56ZhVAJWIG0AY-/0/1753772761708?e=1756944000&v=beta&t=znCBABpHFTodCQzNGV6aVFd4TGbfSXZS9rP0BUn9BPc",
-    "isFounder": false
+    "isFounder": false,
+    "department": "ZenCrew"
   },
-  {
-    "id": "avinash-shukla",
-    "name": "Avinash Kumar Shukla",
-    "role": "Operations Co-Lead",
-    "email": "avinashshukla.dev@gmail.com",
-    "github": "https://github.com/avinash-394",
-    "linkedin": "https://www.linkedin.com/in/avinashshukla394/",
-    "instagram": "https://instagram.com/avinash.shukla04",
-    "discord": "https://discordapp.com/users/509685531291025419",
-    "bio" : "Passionate about turning ideas into impact, building a thriving community.",
-    "avatar": "https://media.licdn.com/dms/image/v2/D5603AQG1nzHhYYAsVg/profile-displayphoto-shrink_200_200/B56ZUn3SSRHsAY-/0/1740130560580?e=1756339200&v=beta&t=wJEYH-H53UdZsDEWJEP0n94FXt02_BGdy53UDvLreDw",
-    "isFounder": false
-  },
-  {
-    "id": "ashutosh-mishra",
-    "name": "Ashutosh Mishra",
-    "email": "talktoashutoshmishra@gmail.com",
-    "role": "Operations Co-Lead",
-    "github": "https://github.com/TheAshutoshMishra",
-    "linkedin": "https://www.linkedin.com/in/theashutoshmishra/",
-    "instagram": "https://instagram.com/pt__ashutosh_mishra",
-    "discord": "https://discordapp.com/users/1396699101399355523",
-    "avatar": "https://media.licdn.com/dms/image/v2/D4D03AQFrCj8GZX97rg/profile-displayphoto-shrink_200_200/B4DZcSfhdnGcAc-/0/1748361948934?e=1756339200&v=beta&t=yQ2LrB0q7bMBBCE4wTKNSI0MLLTlFhwOY6WX7QRACM8",
-    "isFounder": false
-  },
-  {
-    "id": "anand-vashishtha",
-    "name": "Anand Vashishtha",
-    "email": "anandcollege07@gmail.com",
-    "github": "https://github.com/Anand-0037",
-    "instagram": "https://instagram.com/anand_vash_03",
-    "discord": "https://discordapp.com/users/1256244561517482077",
-    "linkedin": "https://www.linkedin.com/in/anand-vashishtha-aba64b255",
-    "avatar": "https://media.licdn.com/dms/image/v2/D4D03AQELZjyaJ3LGiQ/profile-displayphoto-shrink_200_200/B4DZPImxA4HUAY-/0/1734237426910?e=1756339200&v=beta&t=f6WSU1Cd6P6oupgSP0dx_eVCwPU1XlvN9gCRvY0XTfA",
-    "isFounder": false
-  },
-
   {
     "id": "mohd-abbas",
     "name": "Mohd. Abbas",
+    "role": "Productions Lead",
     "email": "mr.mohdabbaszaidi@gmail.com",
     "github": "https://github.com/homiethissid3",
     "linkedin": "https://www.linkedin.com/in/mohd-abbas-84786920b",
     "instagram": "https://instagram.com/click_by_abbas",
     "discord": "https://discordapp.com/users/1364631551039766528",
     "avatar": "https://media.licdn.com/dms/image/v2/D4D03AQGwj_sp7C8BVA/profile-displayphoto-shrink_200_200/B4DZahFcwkH0AY-/0/1746459284085?e=1756339200&v=beta&t=v9ioLYMoZBUOJwFTY3sr1DQ4D7l4pnmgmwWaTauDq4c",
-    "isFounder": false
+    "isFounder": false,
+    "department": "ZenCrew"
+  },
+  {
+    "id": "ashutosh-mishra",
+    "name": "Ashutosh Mishra",
+    "role": "Operations Co-Lead",
+    "email": "talktoashutoshmishra@gmail.com",
+    "github": "https://github.com/TheAshutoshMishra",
+    "linkedin": "https://www.linkedin.com/in/theashutoshmishra/",
+    "instagram": "https://instagram.com/pt__ashutosh_mishra",
+    "discord": "https://discordapp.com/users/1396699101399355523",
+    "avatar": "https://media.licdn.com/dms/image/v2/D4D03AQFrCj8GZX97rg/profile-displayphoto-shrink_200_200/B4DZcSfhdnGcAc-/0/1748361948934?e=1756339200&v=beta&t=yQ2LrB0q7bMBBCE4wTKNSI0MLLTlFhwOY6WX7QRACM8",
+    "isFounder": false,
+    "department": "ZenCrew"
+  },
+  {
+    "id": "ayush-mani-tiwari",
+    "name": "Ayush Mani Tiwari",
+    "role": "Technical Coordinator",
+    "email": "ayushmani.tiwari@example.com",
+    "github": "https://github.com/justayushmani",
+    "linkedin": "https://www.linkedin.com/in/ayush-mani-tiwari-b6369b344?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Byf3cKhiIQKKKdG7xdZGBTQ%3D%3D",
+    "instagram": "https://www.instagram.com/ayush.__.0708?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
+    "discord": "https://discordapp.com/users/1389927503522566234",
+    "avatar": "https://media.licdn.com/dms/image/v2/D5603AQGCTgbDxydcmQ/profile-displayphoto-shrink_200_200/B56ZVcuy8CGQAk-/0/1741017527249?e=1756944000&v=beta&t=YVSKh2LQMKtDzLQrZ8g5yHfGmjPKkx2gtk9EuKegY_s",
+    "isFounder": false,
+    "department": "ZenMates"
+  },
+  {
+    "id": "anand-vashishtha",
+    "name": "Anand Vashishtha",
+    "role": "Technical Coordinator",
+    "email": "anandcollege07@gmail.com",
+    "github": "https://github.com/Anand-0037",
+    "instagram": "https://instagram.com/anand_vash_03",
+    "discord": "https://discordapp.com/users/1256244561517482077",
+    "linkedin": "https://www.linkedin.com/in/anand-vashishtha-aba64b255",
+    "avatar": "https://media.licdn.com/dms/image/v2/D4D03AQELZjyaJ3LGiQ/profile-displayphoto-shrink_200_200/B4DZPImxA4HUAY-/0/1734237426910?e=1756339200&v=beta&t=f6WSU1Cd6P6oupgSP0dx_eVCwPU1XlvN9gCRvY0XTfA",
+    "isFounder": false,
+    "department": "ZenMates"
+  },
+  {
+    "id": "ayush-kumar-pandey",
+    "name": "Ayush Kumar Pandey",
+    "role": "PR & Outreach Coordinator",
+    "email": "ayushpandey23042006@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/ayush-kumar-pandey-a6880532b?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BJQI9oOIqR9W7UuklpMKHWA%3D%3D",
+    "instagram": "https://www.instagram.com/pandey_ayush_070?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
+    "avatar": "https://media.licdn.com/dms/image/v2/D5603AQEZ7sFQS5IQWA/profile-displayphoto-scale_200_200/B56Zgi53mwHcAc-/0/1752932254158?e=1756944000&v=beta&t=m20xCSg7w7yd_kSedl0d8rKMr5xxAOAvfC4Aqz7OSy4",
+    "isFounder": false,
+    "department": "ZenMates"
+  },
+  {
+    "id": "shreshth-kesari",
+    "name": "Shreshth Kesari",
+    "role": "Design & Creative Coordinator",
+    "email": "shreshth.kesari@example.com",
+    "github": "",
+    "linkedin": "https://www.linkedin.com/in/shresth-keshari-3b8997323?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BsnbkjztAQF6G%2Fncq7rk3Kg%3D%3D",
+    "instagram": "https://www.instagram.com/shresth_261/?utm_source=ig_web_button_share_sheet",
+    "discord": "https://discord.com/users/1312000804873437290",
+    "avatar": "https://media.licdn.com/dms/image/v2/D4E03AQHAdGvEHwyr2w/profile-displayphoto-shrink_200_200/B4EZYLjg4bHMAc-/0/1743950582039?e=1756944000&v=beta&t=ysxT_9hGQVvX4GnhchKTtKOkPiX2AulMLhSoIC-PDws",
+    "isFounder": false,
+    "department": "ZenMates"
   }
 ]

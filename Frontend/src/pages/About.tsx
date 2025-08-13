@@ -1,7 +1,8 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { Card, CardContent } from "@/components/ui/card";
-import { Target, Eye, Heart, Users, Code, Share2 } from "lucide-react";
+import { Target, Eye, Heart,Code, Share2 } from "lucide-react";
+import { Users } from "@/components/icons";
 
 const About = () => {
   const timeline = [

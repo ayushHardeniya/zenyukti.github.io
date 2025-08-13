@@ -89,13 +89,13 @@ const Purpose = () => {
         <div className="bg-gradient-secondary/10 rounded-3xl p-8 sm:p-12 border border-accent/20 mb-16">
           <div className="text-center max-w-4xl mx-auto">
             <h3 className="font-display font-bold text-3xl sm:text-4xl mb-6 text-foreground">
-              "We build for the 1700+"
+              "Beyond the Top 1%"
             </h3>
             <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-              While only 30-35 students were selected among 1800 applicants, we recognized that 
-              the remaining 1700+ students also deserved opportunities to learn, grow, and contribute. 
-              ZenYukti bridges that gap by creating an inclusive platform where everyone can participate 
-              in the tech ecosystem.
+              Most chase the top 1%.<br />
+              We’re here for the 99% — the relentless, the overlooked, the ones still building. <br/>
+              Because brilliance isn’t born in spotlights — it’s forged in silence, grit, and late nights. <br />
+              ZenYukti doesn’t filter talent. It fuels it.
             </p>
             <div className="flex flex-wrap justify-center gap-6 text-sm font-medium">
               <span className="text-neon-green">📈 Growth for All</span>

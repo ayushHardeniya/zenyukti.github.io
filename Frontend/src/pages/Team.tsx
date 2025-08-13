@@ -22,6 +22,7 @@ import {
   Code,
   Heart,
   Mail,
+  X,
 } from "@/components/icons";
 
 /**
@@ -41,6 +42,8 @@ interface TeamMember {
   avatar?: string;
   bio?: string;
   isFounder?: boolean;
+  department?: string;
+  twitter?: string;
 }
 
 /**
@@ -112,6 +115,18 @@ const Team = () => {
         color: "text-pink-400 hover:text-pink-300",
       });
     }
+
+    // Twitter link
+    if (member.twitter) {
+      links.push({
+        platform: "Twitter",
+        url: member.twitter,
+        icon: X,
+        color: "text-gray-200 hover:text-gray-100"
+      });
+    }
+
+
     // Discord link
     if (member.discord) {
       links.push({
@@ -189,7 +204,7 @@ const Team = () => {
               </div>
               <div className="text-center">
                 <div className="text-3xl font-bold text-neon-blue mb-2">
-                  100+
+                  600+
                 </div>
                 <div className="text-muted-foreground">Community Members</div>
               </div>
@@ -202,7 +217,7 @@ const Team = () => {
           <div className="container mx-auto">
             <div className="text-center mb-16">
               <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-4">
-                Our Founders
+                ZenBoard • The Initiators
               </h2>
               <p className="text-muted-foreground max-w-2xl mx-auto">
                 Meet the visionaries who started ZenYukti with a dream to make
@@ -421,7 +436,7 @@ const Team = () => {
             {/* Team grid - responsive layout */}
             <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
               {teamMembers
-                .filter((member) => !member.isFounder && member.id !== "anvita-shukla" && member.id !== "avinash-shukla")
+                .filter((member) => !member.isFounder && member.department === "ZenCrew")
                 .map((member, index) => (
                   <Card
                     key={member.id}
@@ -485,8 +500,87 @@ const Team = () => {
           </div>
         </section>
 
-        {/* Values Section */}
+        {/* ZenMates Section */}
         <section className="py-20 px-4 bg-dark-surface/30">
+          <div className="container mx-auto">
+            <div className="text-center mb-16">
+              <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-4">
+                ZenMates • The Action Team
+              </h2>
+              <p className="text-muted-foreground max-w-2xl mx-auto">
+                The hands-on crew that makes sure ideas don’t just stay ideas.
+              </p>
+            </div>
+
+            {/* ZenMates grid - responsive layout */}
+            <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+              {teamMembers
+                .filter((member) => member.department === "ZenMates")
+                .map((member, index) => (
+                  <Card
+                    key={member.id}
+                    className="bg-card/50 backdrop-blur-sm border-border hover:border-primary/30 transition-all duration-300 hover:shadow-lg hover:shadow-primary/5 hover:-translate-y-1"
+                    style={{
+                      animationDelay: `${index * 100}ms`,
+                    }}
+                  >
+                    <CardContent className="p-6 text-center">
+                      {/* Avatar */}
+                      <div className="w-20 h-20 mx-auto mb-4 relative">
+                        {!imageErrors[member.id] && member.avatar ? (
+                          <img
+                            src={member.avatar}
+                            alt={`${member.name} profile`}
+                            className="w-full h-full rounded-full object-cover border-2 border-border"
+                            onError={() => handleImageError(member.id)}
+                          />
+                        ) : (
+                          <div className="w-full h-full rounded-full bg-gradient-to-br from-secondary to-secondary/70 flex items-center justify-center text-white text-lg font-bold">
+                            {getInitials(member.name)}
+                          </div>
+                        )}
+                      </div>
+
+                      {/* Member info */}
+                      <h3 className="text-lg font-bold text-foreground mb-1">
+                        {member.name}
+                      </h3>
+                      <p className="text-sm text-primary/80 mb-2">{member.role}</p>
+                      <p className="text-sm text-muted-foreground mb-4">
+                      </p>
+
+                      {/* Social links */}
+                      <div className="flex justify-center space-x-2">
+                        {getSocialLinks(member).map((social, idx) => {
+                          const IconComponent = social.icon;
+                          return (
+                            <a
+                              key={idx}
+                              href={social.url !== "#" ? social.url : undefined}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className={`p-2 rounded-md hover:bg-secondary/50 ${
+                                social.color
+                              } transition-all duration-200 hover:scale-110 ${
+                                social.url === "#"
+                                  ? "pointer-events-none opacity-50"
+                                  : ""
+                              }`}
+                            >
+                              <IconComponent className="w-4 h-4" />
+                            </a>
+                          );
+                        })}
+                      </div>
+                    </CardContent>
+                  </Card>
+                ))}
+            </div>
+          </div>
+        </section>
+
+        {/* Values Section */}
+        <section className="py-20 px-4">
           <div className="container mx-auto">
             <div className="text-center mb-16">
               <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-4">
@@ -544,7 +638,7 @@ const Team = () => {
         </section>
 
         {/* Join Team CTA */}
-        <section className="py-20 px-4">
+        <section className="py-20 px-4 bg-dark-surface/30">
           <div className="container mx-auto text-center">
             <Card className="bg-gradient-primary p-8 border-0 max-w-3xl mx-auto">
               <CardContent className="p-0">
@@ -553,12 +647,12 @@ const Team = () => {
                 </h2>
                 <p className="text-white/90 mb-8 max-w-2xl mx-auto">
                   We're always looking for passionate individuals who share our
-                  vision of democratizing tech education. Join us in making a
+                  vision of building collaborately and growing together. Join us in making a
                   difference!
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
                   <a
-                    href="mailto:zenyukti@ayushhardeniya.site"
+                    href="mailto:teamzenyukti@gmail.com"
                     className="inline-flex items-center justify-center text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 px-6 py-2 h-11 rounded-md bg-white text-primary hover:bg-white/90"
                   >
                     <Mail className="w-5 h-5 mr-2" />

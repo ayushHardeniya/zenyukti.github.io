@@ -296,8 +296,8 @@ const Privacy = () => {
                   </div>
                   <p className="text-muted-foreground mt-6">
                     To exercise these rights, please contact us at{" "}
-                    <a href="mailto:zenyukti@ayushhardeniya.site" className="text-primary hover:underline">
-                      zenyukti@ayushhardeniya.site
+                    <a href="mailto:teamzenyukti@gmail.com" className="text-primary hover:underline">
+                    teamzenyukti@gmail.com
                     </a>
                   </p>
                 </CardContent>
@@ -356,7 +356,7 @@ const Privacy = () => {
                       size="lg" 
                       variant="secondary" 
                       className="bg-white text-primary hover:bg-white/90"
-                      onClick={() => window.open('mailto:zenyukti@ayushhardeniya.site', '_blank')}
+                      onClick={() => window.open('mailto:teamzenyukti@gmail.com', '_blank')}
                     >
                       Email Us
                     </Button>
