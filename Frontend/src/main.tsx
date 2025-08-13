@@ -9,4 +9,5 @@ import React from 'react';
     <App />
   </HashRouter>
 </React.StrictMode>
+
 createRoot(document.getElementById("root")!).render(<App />);

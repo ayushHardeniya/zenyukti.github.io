@@ -4,9 +4,7 @@ import { FcGoogle } from "react-icons/fc";
 import { Link } from "react-router-dom";
 import { useState } from "react";
 
-// Dynamically determine backend URL (localhost or GitHub Pages)
-const API_BASE_URL =
-   "http://localhost:5000";
+const API_BASE_URL = "http://localhost:5001";
 
 export default function SignUp() {
   const [email, setEmail] = useState("");
@@ -18,25 +16,44 @@ export default function SignUp() {
       return;
     }
 
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!emailRegex.test(email)) {
+      alert("Please enter a valid email address");
+      return;
+    }
+
     try {
-      const response = await fetch(`${API_BASE_URL}/api/auth/signup`, {
+      const response = await fetch(`${API_BASE_URL}/api/v1/users/register`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ email, password }),
       });
-      console.log(response.json);
+
+      if (!response.ok) {
+        const errorText = await response.text();
+        console.error("Server error:", errorText);
+        alert(`Server error: ${response.status}. Please try again.`);
+        return;
+      }
+
       const data = await response.json();
 
-      if (response.ok) {
-        alert("🎉 Account created successfully!");
-        
-      } else {
-        alert(data.message || "Something went wrong");
-      }
+      alert("🎉 Account created successfully!");
+      setEmail("");
+      setPassword("");
+
     } catch (err) {
       console.error("Signup error:", err);
-      alert("Failed to sign up. Try again.");
+      alert("Failed to sign up. Please check if the server is running and try again.");
     }
+  };
+  const handleGoogleLogin = () => {
+    const backendURL =
+      window.location.hostname === "localhost"
+        ? "http://localhost:5001" // local backend
+        : "https://your-backend-domain.com"; // replace with your deployed backend URL
+
+    window.location.href = `${backendURL}/api/auth/google`;
   };
 
   return (
@@ -93,6 +110,7 @@ export default function SignUp() {
         <Button
           variant="outline"
           className="w-full flex items-center justify-center gap-2 border-gray-600 text-gray-300 hover:bg-gray-800"
+          onClick={handleGoogleLogin}
         >
           <FcGoogle className="w-5 h-5" />
           Sign up with Google
